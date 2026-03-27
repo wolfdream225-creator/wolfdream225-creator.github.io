@@ -50,7 +50,6 @@
 
   <script src="app.js"></script>
   <script>
-    // Simple modal image viewer for hero items
     (function(){
       function openImage(src){
         const overlay = document.createElement('div');
@@ -61,10 +60,8 @@
         window.addEventListener('keydown', function esc(e){ if(e.key === 'Escape'){ overlay.remove(); window.removeEventListener('keydown', esc); } });
       }
 
-      // Attach clicks to the entire collage card and the inner small images
       document.querySelectorAll('.hero-item, .collage-small').forEach(el=>{
         el.addEventListener('click', (e)=>{
-          // prefer the element's own data-src if present (this allows small images to open themselves)
           const target = e.currentTarget;
           const src = target.getAttribute('data-src') || (target.style.backgroundImage && target.style.backgroundImage.slice(5,-2)) || 'coloseum1.png';
           openImage(src);

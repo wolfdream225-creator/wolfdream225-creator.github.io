@@ -38,5 +38,25 @@
     "image": "IMG_2914.png",
     "short": "Monument dedicated to the first king of unified Italy.",
     "tags": "monument,italy"
+  },
+    {
+    "id": "statue-of-david",
+    "title": "Statue of David",
+    "slug": "soon",
+    "type": "place",
+    "year": "1501–1504",
+    "image": "IMG_3685.jpeg",
+    "short": "Sculpture by Michelangelo, representing the biblical hero David.",
+    "tags": "sculpture, renaissance, italy"
+  },
+  {
+    "id": "san-gimignano",
+    "title": "San Gimignano",
+    "slug": "soon",
+    "type": "place",
+    "year": "13th century",
+    "image": "IMG_3662.jpeg",
+    "short": "Medieval town in Tuscany, known for its towers and architecture.",
+    "tags": "town, medieval, italy"
   }
 ]

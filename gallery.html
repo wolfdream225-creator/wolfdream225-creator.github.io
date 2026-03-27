@@ -20,12 +20,22 @@
     .viewer .controls .close{background:rgba(0,0,0,0.45);padding:8px 10px;border-radius:6px;cursor:pointer}
     .viewer .nav{position:fixed;left:12px;right:12px;top:50%;display:flex;justify-content:space-between;pointer-events:none}
     .viewer .nav button{pointer-events:auto;background:rgba(255,255,255,0.06);border:0;color:#fff;padding:10px 12px;border-radius:6px;cursor:pointer}
+    .backb {
+      background: rgba(255, 255, 255, 0.1);
+      border: 0;
+      border-radius: 6px;
+      color: #fff;
+      padding: 8px 12px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
   </style>
 </head>
 <body>
   <header class="site-header">
     <h1>Image Gallery</h1>
     <p class="tag">All images are taken by nicholas machan and are original - click to expand</p>
+    <p><a class="backb" href="https://wolfdream225-creator.github.io/index.html">Home</a></p>
   </header>
 
   <main class="gallery-wrap">
@@ -50,7 +60,19 @@
       { src: 'IMG_2905.png', title: 'Trevi Fountain' },
       { src: 'IMG_2914.png', title: 'Vittorio-emanuele-monument' },
       { src: 'IMG_3688.png', title: 'Statue of David' },
-      { src: 'IMG_3679.png', title: 'Unfinished Sculptur' }
+      { src: 'IMG_3679.png', title: 'Unfinished Sculpture by Michelangelo' },
+      { src: 'IMG_3705.jpeg', title: 'Painting by michelangelo'},
+      { src: 'IMG_3639.jpeg', title: 'Tuscany hills' },
+      { src: 'IMG_3662.jpeg', title: 'San Gimignano' },
+      { src: 'IMG_3659.jpeg', title: 'San Gimignano - Knife Store' },
+      { src: 'IMG_3669.jpeg', title: 'San Gimignano - Butcher Shop' },
+      { src: 'IMG_3615.jpeg', title: 'Piazza Navona - fountain' },
+      { src: 'IMG_3620.jpeg', title: 'Piazza Navona - Monument' },
+      { src: 'IMG_2939.png', title: 'Vittorio Emanuele II Monument - Statue' },
+      { src: 'IMG_3672.jpeg', title: 'The Rape of the Sabine women' },
+      { src: 'IMG_2978.jpeg', title: 'Hadrians villa - Garden'},
+      { src: 'IMG_2989.jpeg', title: 'Hadrians villa - Outside'},
+      { src: 'IMG_2991.jpeg', title: 'Hadrians villa - Ruins'},
     ];
 
     const gallery = document.getElementById('gallery');

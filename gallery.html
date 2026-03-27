@@ -6,7 +6,6 @@
   <title>Image Gallery — Ancient Rome Archive</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    /* Gallery-specific styles */
     .gallery-wrap{max-width:1100px;margin:28px auto;padding:0 18px}
     .gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
     .img-card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,0.08);cursor:pointer;display:flex;flex-direction:column}
@@ -14,7 +13,6 @@
     .img-meta{padding:10px;font-size:.95rem;color:#333}
     .img-meta small{color:#777}
 
-    /* Modal viewer */
     .viewer{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.9);z-index:9999}
     .viewer.active{display:flex}
     .viewer img{max-width:95%;max-height:90%;border-radius:6px;box-shadow:0 18px 80px rgba(0,0,0,0.6)}
@@ -36,7 +34,6 @@
     </section>
   </main>
 
-  <!-- Modal viewer -->
   <div id="viewer" class="viewer" role="dialog" aria-modal="true" aria-hidden="true">
     <div class="nav">
       <button id="prev" aria-label="Previous image">◀</button>
@@ -47,7 +44,6 @@
   </div>
 
   <script>
-    // Inline array of images to render as cards
     const IMAGES = [
       { src: 'coloseum1.png', title: 'Colosseum' },
       { src: 'IMG_3257.png', title: 'Forum' },
@@ -87,7 +83,6 @@
       viewerImg.alt = entry.title || '';
       viewer.classList.add('active');
       viewer.setAttribute('aria-hidden', 'false');
-      // focus for keyboard events
       closeBtn.focus();
     }
 
@@ -106,7 +101,6 @@
       viewerImg.alt = entry.title || '';
     }
 
-    // Event bindings
     closeBtn.addEventListener('click', closeViewer);
     viewer.addEventListener('click', (e)=>{ if(e.target === viewer) closeViewer(); });
     prevBtn.addEventListener('click', ()=> showNext(-1));
@@ -120,7 +114,6 @@
       }
     });
 
-    // Build on load
     buildGallery();
   </script>
 </body>

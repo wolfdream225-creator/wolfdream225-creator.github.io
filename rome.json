@@ -2,7 +2,7 @@
   {
     "id": "colosseum",
     "title": "The Colosseum",
-    "slug": "colloseum",
+    "slug": "soon",
     "type": "place",
     "year": "80 AD",
     "image": "coloseum1.png",
@@ -12,7 +12,7 @@
   {
     "id": "forum",
     "title": "The Roman Forum",
-    "slug": "forum",
+    "slug": "soon",
     "type": "place",
     "year": "100–44 BC",
     "image": "IMG_3257.png",
@@ -22,7 +22,7 @@
   {
     "id": "trevi-fountain",
     "title": "Trevi Fountain",
-    "slug": "trevi-fountain",
+    "slug": "soon",
     "type": "place",
     "year": "1732–1762",
     "image": "IMG_2905.png",
@@ -32,7 +32,7 @@
   {
     "id": "Vittorio-emanuele-monument",
     "title": "Vittorio Emanuele II Monument",
-    "slug": "vittorio-emanuele-monument",
+    "slug": "soon",
     "type": "place",
     "year": "1885",
     "image": "IMG_2914.png",

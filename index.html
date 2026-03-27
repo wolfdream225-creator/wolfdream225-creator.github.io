@@ -67,7 +67,7 @@
         el.addEventListener('click', (e)=>{
           // prefer the element's own data-src if present (this allows small images to open themselves)
           const target = e.currentTarget;
-          const src = target.getAttribute('data-src') || (target.style.backgroundImage && target.style.backgroundImage.slice(5,-2)) || 'media/coloseum1.png';
+          const src = target.getAttribute('data-src') || (target.style.backgroundImage && target.style.backgroundImage.slice(5,-2)) || 'coloseum1.png';
           openImage(src);
         });
       });

@@ -45,7 +45,7 @@
     "slug": "soon",
     "type": "place",
     "year": "1501–1504",
-    "image": "IMG_3685.JPEG",
+    "image": "IMG_3685.jpeg",
     "short": "Sculpture by Michelangelo, representing the biblical hero David.",
     "tags": "sculpture, renaissance, italy"
   },
@@ -55,8 +55,68 @@
     "slug": "soon",
     "type": "place",
     "year": "13th century",
-    "image": "IMG_3662.JPEG",
+    "image": "IMG_3662.jpeg",
     "short": "Medieval town in Tuscany, known for its towers and architecture.",
     "tags": "town, medieval, italy"
+  },
+  {
+    "id": "saint-peters-basilica",
+    "title": "Saint Peter's basilica",
+    "slug": "soon",
+    "type": "place",
+    "year": "17th century",
+    "image": "IMG_3338.JPEG",
+    "short": "The worlds biggest church known for its famous paintings and architecture.",
+    "tags": "sculpture, renaissance, italy"
+  },
+  {
+    "id": "saint-marks-square",
+    "title": "Saint Marks Square",
+    "slug": "soon",
+    "type": "place",
+    "year": "9th century",
+    "image": "IMG_3871.JPEG",
+    "short": "city centre in Venice, known for its tourist destination and famous restaurants.",
+    "tags": "square, venice, italy"
+  },
+  {
+    "id": "doge-palace",
+    "title": "Doges Palace",
+    "slug": "soon",
+    "type": "place",
+    "year": "9th century",
+    "image": "IMG_4012.JPEG",
+    "short": "Doge palace in Venice, known for its stunning architecture and historical significance.",
+    "tags": "palace, venice, italy"
+  },
+  {
+    "id": "saint-marks-basilica",
+    "title": "Saint Marks Basilica",
+    "slug": "soon",
+    "type": "place",
+    "year": "828 AD",
+    "image": "IMG_3865.JPEG",
+    "short": "Basilica in Venice, known for its stunning architecture and mosaics.",
+    "tags": "basilica, venice, italy"
+  },
+  {
+    "id": "tower-of-pisa",
+    "title": "Leaning Tower of Pisa",
+    "slug": "soon",
+    "type": "place",
+    "year": "14th century",
+    "image": "IMG_3793.JPEG",
+    "short": "Famous leaning bell tower in Pisa, known for its unintended tilt.",
+    "tags": "tower, medieval, italy"
+  },
+  {
+    "id": "pisa-cathedral",
+    "title": "The Cathedral of Pisa",
+    "slug": "soon",
+    "type": "place",
+    "year": "14th century",
+    "image": "IMG_3784.JPEG",
+    "short": "Gothic cathedral in Pisa, known for its stunning architecture.",
+    "tags": "cathedral, gothic, italy"
   }
 ]
